@@ -14,14 +14,17 @@ namespace Side_Scrolling_Game_MOO_ICT
     {
 
 
-        bool goLeft, goRight, jumping, hasKey;
+        bool goLeft = false;
+        bool goRight = false;
+        bool jumping = false; //jumping Boolean will be used to control how the player jumps in the game
+        bool hasKey = false; //haskey Booleans will be set true once the player collects the key
 
-        int jumpSpeed = 10;
-        int force = 8;
-        int score = 0;
+        int jumpSpeed = 10; //JumpSpeed will control how fast the player jumps
+        int force = 8; //JumpSpeed will control how fast the player jumps
+        int score = 0; //score is obvious off course to keep score
 
-        int playerSpeed = 10;
-        int backgroundSpeed = 8;
+        int playerSpeed = 10; //playSpeed will control how fast the player moves left or right
+        int backgroundSpeed = 8; //backLeft will control the environment speed relative to the player.
 
 
 
